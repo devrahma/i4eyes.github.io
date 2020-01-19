@@ -1,0 +1,370 @@
+
+body{
+    margin: 0;
+    font-family: 'sans-serif'; 
+    line-height: 1.6em;
+}
+ p, blockquote {
+    font-size:.9em;
+    line-height: 1.6em;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    text-align: center;
+    padding: .8em 1.2em;
+}
+.smallogo{
+    width: 130px;
+  
+}
+.hide-mobile{
+    display: none;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    width: 25px;
+    margin-top: 45%;
+
+}
+
+.bigslayway{
+    width: 70%;
+    margin: 2em auto 2em 25%;
+   
+}
+h1, .subhead{
+    position: relative;
+    z-index: 3;
+}
+.subhead{
+    font-size: 1.1em;
+
+
+}
+
+.gold-container{
+    width: 100%;
+    background: goldenrod;
+    color: black;
+    margin-top: 15%;
+    padding:4em 0 2em;
+    border-top-left-radius: 40px;
+    transform: skewY(-2deg);
+}
+
+.gold-container:before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color:goldenrod;
+    position: absolute;
+    top: -39px;
+    right:0;
+    z-index:-2;
+
+}
+
+.gold-container:after{
+    content: "";
+    width:80px;
+    height:80px;
+    background-color: white;
+    top: -80px;
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+
+.gold-container ul{
+    transform: skewY(2deg);
+}
+
+.gold-container ul li p{
+    padding: 1.9em;
+
+}
+
+.gold-container img{
+    width: 19%;
+
+}
+
+.gold-container ul li:nth-child(3) img{
+    width: 20%;
+}
+
+.grey-container{
+    padding: 4em 0 2em;
+    margin-top:-3% ;
+
+}
+
+.grey-container ul li:first-child{
+    margin-bottom: 2em;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+figcaption{
+    font-weight: bold;
+    color: rgb(1, 1, 8);
+
+}
+
+h2{
+    margin-top: 7%;
+}
+
+
+.cta {
+    background-color: blue;
+    width: calc(100% - 1em);
+    display: block;
+    color: white;
+    border-radius: 20px;
+    padding: .5em;
+    text-emphasis: none;
+    font-size: 1.5em;
+    margin: 3% auto 7%;
+    position: relative;
+    z-index: 4;
+
+
+}
+
+.cta:hover{
+    background-color: rgb(10, 10, 17) ;
+}
+
+
+
+.slay{
+    font-size: 30px;
+}
+
+.footer-container{
+    width: 100%;
+    background:#3D444A;
+    color: #fff;
+    padding: 3em 0;
+    border-top-right-radius: 40px;
+    transform: skewY(2deg);
+
+}
+
+
+
+.footer-container .container{
+    transform: skewY(-2deg);
+}
+
+.footer-container:before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #3D444A;
+    position: absolute;
+    top: -39px;
+    left: 0;
+    z-index: -2;
+}
+
+
+.footer-container:after{
+    content: "";
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+    position: absolute;
+    z-index: -1;
+    top: -80px;
+    left: 0;
+    border-radius: 50%;
+
+
+}
+
+
+ul.footer-links{
+    margin: 0 auto;
+
+}
+
+
+
+ul.footer-links li{
+    display: inline-block;
+    font-weight: 500 ;
+    font-size: 25px;
+
+
+}
+ul.footer-links li:hover{
+    background-color: red;
+}
+
+
+
+ul.footer-links li a{
+  color: #2115ca;
+  font-size: .8em;
+
+}
+
+nav ul {
+    position: fixed;
+    width: 30%;
+    top: 0;
+    right: 0;
+    text-align: left;
+    background:rgb(77, 71, 71);
+    height: 100%;
+    z-index: 7;
+    padding-top: 1em;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 3em 4em;
+    background-color: rgb(112, 68, 68);
+}
+
+nav ul li a:hover {
+    background-color: rgb(99, 87, 87);
+   
+
+
+
+}
+.exit-btn{
+    margin-bottom: 1em;
+    margin-top: -1.3em;
+    text-align: right;
+    padding: 0 1.4em;
+
+
+}
+.exit-btn img{
+    width: 25px;
+}
+
+@media only screen and (min-width: 650px) {
+    
+    .bigslayway{ 
+        width: 50%;
+ }
+}
+
+h1{
+    font-size: 3em;
+    margin:0;
+
+}
+
+.subhead{
+    font-size: 1.4em;
+    margin-bottom: 12%;
+    font-style: italic;
+    text-decoration-color: lightcoral;
+    color: rgb(56, 155, 69);
+    font-weight: 900;
+
+}
+
+.gold-container{
+    margin: 0;
+
+}
+
+.gold-container img{
+    width: 20%;
+}
+
+
+
+.gold-container ul {
+    display: flex;
+    margin-top: -3em;
+    align-items: center;
+
+
+}
+
+
+.gold-container ul li:nth-child(3) img {
+    width: 15%;
+    margin-top: -12px;
+}
+
+.gold-container ul li{
+    margin-bottom: 10;
+    margin-top: 10;
+}
+
+.gold-container ul li p{
+    padding: .8em;
+}
+
+.grey-container ul{
+    display: flex;
+   
+
+}
+
+.grey-container ul p{
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 875px){
+
+    .subhead{
+        margin-bottom: 15%;
+    }
+
+}
+
+.gold-container{
+    margin: 0;
+    width: 100%;
+
+}
+
+
+        .gold-container ul{
+            margin: 0 0 4% 0;
+        }
+
+        .grey-container ul{
+            margin: 4% 0 0;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>slayway</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/smallogo.svg" alt="slayway logo" class="logo"> 
+            
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="images/ham.svg" alt="toggle menu" class="menu" id= "menu">
+                </a>
+                <ul class="show-desktop hide-mobile" id="nav">
+                <li id="exit" class="exit-btn hide-desktop"> 
+                 <img src="images/exit.svg" alt="exit menu" >
+                </li> 
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    
+                        
+                   
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <img src="images/logoo.svg" alt="sgraphic" class="bigslayway">
+            <h1 > You're welcome to slayway</h1>
+            <img src="images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+        </section>
+    </div>
+    <marquee behavior="scroll" direction="left" class="subhead">Everything you need to live,feel & breathe good!</marquee>
+
+    <div class="gold-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/window.svg" alt="Window Shop">
+                    <p> Feel at home, look around, fall inlove,you might just end up picking a cart or come back some other time</p>
+                </li>
+                <li>
+                    <img src="images/cart.svg" alt="Cart">
+                    <p> Pick an empty cart, the wheels will never complain. pick up your loves! All of them-Proceed to checkout when you're ready.</p>
+                </li>
+                <li>
+                    <img src="images/checkout.svg" alt="Checkout" class="checkout">
+                    <p> Aha! now that we've gone from zero to hero, time to do some exchange! our payment methods are convenient and fast. Deliver date and hour will be e-mailed immediately</p>
+                </li>
+            </ul>
+        </div>
+     </div>
+
+     <div class="grey-container">
+        <div class="container">
+            <ul>
+            <li>
+                <figure>
+                <img src="images/figcap2.svg" alt="testimonial">
+                <blockquote>  Slayway is the most convenient store online these days, Everything is super fast and satisfactory. Customer care at it's peak! i could go on but i'm in a hurry to try out my new makeup. Do it the slayway guys! </blockquote>
+                    <figcaption> -4eyez </figcaption>
+            </figure>
+            </li>
+            <li>
+                <figure>
+                <img src="images/figcap1.svg" alt="testimonial">
+                <blockquote> I said Slayway is the most convenient store online these days, Everything is super fast and satisfactory. Customer care at it's peak! i could go on but i'm in a hurry to try out my new makeup. Do it the slayway guys!!!!!!!!!!!!!!</blockquote>
+                <figcaption> - Rahmatuulah </figcaption>
+            </figure>
+         </li>
+        </ul>
+    </div>
+    </div>
+        <div class="container">
+            <h2> Write your review about us</h2> 
+            <a href="#" class="cta">Review</a>
+            </div>
+
+            <footer>
+                <div class="footer-container">
+                    <div class="container">
+                            <p class="slay"> Do it, the  SLAYWAYY!</p>
+               <!-- <img src="images/smallogo.svg" class="logo" alt="logo"> -->
+                <p class="ctwitter"> Twitter: @rahhmatullah <br>Instagram: rahhmatullah</p>
+                <ul class="footer-links">
+                <li> <a href="#"> Terms and Conditions</a></li>
+                <li> <a href="#"> Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+      
+
+
+
+
+<script>
+    var menu=document.getElementById('menu');
+   var nav=document.getElementById('nav');
+  var exit=document.getElementById('exit');
+
+   menu.addEventListener('click', function(e){
+       nav.classList.toggle('hide-mobile');
+       e.preventDefault();
+
+      exit.addEventListener('click', function(e){
+       nav.classList.add('hide-mobile');
+       e.preventDefault();
+
+   });
+
+   });
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
+
