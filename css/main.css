@@ -37,8 +37,12 @@ header{
 }
 
 .bigslayway{
-    width: 70%;
-    margin: 2em auto 2em 25%;
+    display: block;
+    margin: 2em auto 2em auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
    
 }
 h1, .subhead{
@@ -147,7 +151,7 @@ h2{
 }
 
 .cta:hover{
-    background-color: rgb(10, 10, 17) ;
+    background-color: rgb(208, 208, 219) ;
 }
 
 
@@ -231,7 +235,7 @@ nav ul {
     top: 0;
     right: 0;
     text-align: left;
-    background:rgb(77, 71, 71);
+    background:rgb(248, 249, 250);
     height: 100%;
     z-index: 7;
     padding-top: 1em;
@@ -244,11 +248,11 @@ nav ul li a {
     display: block;
     width: 100%;
     padding: 3em 4em;
-    background-color: rgb(112, 68, 68);
+    background-color: rgb(249, 251, 251);
 }
 
 nav ul li a:hover {
-    background-color: rgb(99, 87, 87);
+    background-color: rgb(212, 204, 204);
    
 
 
