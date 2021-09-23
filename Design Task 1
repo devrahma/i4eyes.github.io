@@ -1,0 +1,8 @@
+//1
+store each student in an array of objects
+compute each student's score and save as a value for each's registration number, forming an array of objects.
+print array of objects with registration number as key, total number as value.
+//2&3
+In Decending order, print results with [index +i] as position
+//4
+Print the first index as lowest score, last index as highest score and divide sum of scores by sum of tests for average.
